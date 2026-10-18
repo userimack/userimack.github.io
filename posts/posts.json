@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "real-time-cdc-kafka-debezium",
+    "title": "Architecting Real-Time Change Data Capture with Kafka and Debezium",
+    "date": "2025-06-12",
+    "readTime": "6 min read",
+    "excerpt": "Practical architectural lessons and operational trade-offs from operating a 2M+ daily mutation CDC pipeline on HDInsight Kafka.",
+    "tags": ["Kafka", "Debezium", "Distributed Systems", "CDC"]
+  },
+  {
+    "slug": "building-governed-ai-apis-snowflake-cortex",
+    "title": "Building Governed Platform APIs Around Snowflake Cortex & Agentic Workflows",
+    "date": "2025-02-18",
+    "readTime": "8 min read",
+    "excerpt": "How we designed a centralized, multi-tenant API serving 8+ engineering teams and 50,000 requests/day around LLMs and unstructured data.",
+    "tags": ["AI & LLMs", "Snowflake Cortex", "Go", "API Design"]
+  },
+  {
+    "slug": "kubernetes-network-security-calico",
+    "title": "Hardening Pod-to-Pod Kubernetes Network Security with Calico Policies",
+    "date": "2024-11-04",
+    "readTime": "5 min read",
+    "excerpt": "Implementing zero-trust microsegmentation and reducing attack surfaces in regulated healthcare infrastructure.",
+    "tags": ["Kubernetes", "Calico", "Security", "DevOps"]
+  }
+]
