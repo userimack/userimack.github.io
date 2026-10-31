@@ -121,7 +121,7 @@ function updateThemeIcon(theme) {
 function initCopyEmail() {
   const copyBtn = document.getElementById('copy-email-trigger');
   const toast = document.getElementById('copy-toast');
-  const email = 'mahendra.k12@gmail.com';
+  const email = 'mahendra.k12+contact@gmail.com';
 
   if (!copyBtn || !toast) return;
 
@@ -207,7 +207,7 @@ async function initDynamicPosts() {
       <a href="post.html?id=${encodeURIComponent(p.slug)}" class="writing-item">
         <div class="writing-header">
           <h3 class="writing-title">${p.title}</h3>
-          <span class="writing-meta">${p.date} &bull; ${p.readTime}</span>
+          <span class="writing-meta">${p.date} · ${p.readTime}</span>
         </div>
         <p class="writing-excerpt">${p.excerpt}</p>
         <div class="tags-row">
